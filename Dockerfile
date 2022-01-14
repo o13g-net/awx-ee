@@ -12,3 +12,5 @@ RUN cd /tmp \
  && chmod +x /usr/local/bin/helm
 
 USER 1000
+
+RUN helm plugin install https://github.com/databus23/helm-diff
